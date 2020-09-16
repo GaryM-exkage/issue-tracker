@@ -20,7 +20,7 @@ import
 
 function Navbar()
 {
-    const history = useHistory();
+    // const history = useHistory();
 
     const [isOpen, setOpen] = React.useState(false);
 

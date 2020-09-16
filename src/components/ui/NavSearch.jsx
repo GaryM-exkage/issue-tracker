@@ -23,7 +23,7 @@ function NavSearchBar()
             <div className={`flex-shrink-0  mr-2 w-6 h-6 ${ isFocused ? "text-teal-200" : "text-teal-400" } `}>
                 <SearchIcon className="w-6 h-6"/>
             </div>
-            <input onFocus={doFocus} onBlur={unFocus} className="bg-transparent overflow-hidden outline-none w-full appearance-none placeholder-teal-100 text-white leading-tight" type="text" placeHolder="Find Projects"></input>
+            <input onFocus={doFocus} onBlur={unFocus} className="bg-transparent overflow-hidden outline-none w-full appearance-none placeholder-teal-100 text-white leading-tight" type="text" placeholder="Find Projects"></input>
         </div>);
 }
 

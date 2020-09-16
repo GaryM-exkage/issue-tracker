@@ -23,7 +23,7 @@ function SearchBar()
             <div className={`flex-shrink-0  mr-2 w-6 h-6 ${ isFocused ? "text-teal-500" : "text-teal-600" } `}>
                 <SearchIcon className="w-6 h-6"/>
             </div>
-            <input onFocus={doFocus} onBlur={unFocus} className="bg-transparent overflow-hidden outline-none w-full appearance-none placeholder-teal-800 text-gray-800 leading-tight" type="text" placeHolder="Search"></input>
+            <input onFocus={doFocus} onBlur={unFocus} className="bg-transparent overflow-hidden outline-none w-full appearance-none placeholder-teal-800 text-gray-800 leading-tight" type="text" placeholder="Search"></input>
         </div>);
 }
 
